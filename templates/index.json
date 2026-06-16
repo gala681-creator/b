@@ -9,23 +9,49 @@
  */
 {
   "sections": {
+    "image-with-text-overlay": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "1664424230c4756b0e-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "1664424230c4756b0e-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h1"
+          }
+        },
+        "1664424230c4756b0e-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "1664424230c4756b0e-0",
+        "1664424230c4756b0e-1",
+        "1664424230c4756b0e-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "collection-list": {
       "type": "collection-list",
       "blocks": {
-        "collection_Fb7wnk": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
         "collection-1": {
           "type": "collection",
           "settings": {
@@ -98,7 +124,6 @@
         }
       },
       "block_order": [
-        "collection_Fb7wnk",
         "collection-1",
         "collection-2",
         "collection-3",
@@ -138,44 +163,78 @@
         "text_gradient": ""
       }
     },
-    "image-with-text-overlay": {
-      "type": "image-with-text-overlay",
+    "image_link_blocks_pBC8ML": {
+      "type": "image-link-blocks",
       "blocks": {
-        "1664424230c4756b0e-0": {
-          "type": "subheading",
+        "item_FieMC3": {
+          "type": "item",
           "settings": {
-            "text": "Subheading"
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
           }
         },
-        "1664424230c4756b0e-1": {
-          "type": "heading",
+        "item_VpePrf": {
+          "type": "item",
           "settings": {
-            "text": "Image with text overlay",
-            "heading_tag": "h1"
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
           }
         },
-        "1664424230c4756b0e-2": {
-          "type": "richtext",
+        "item_TGpxYN": {
+          "type": "item",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_C3AXgE": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "1664424230c4756b0e-0",
-        "1664424230c4756b0e-1",
-        "1664424230c4756b0e-2"
+        "item_FieMC3",
+        "item_VpePrf",
+        "item_TGpxYN",
+        "item_C3AXgE"
       ],
+      "name": "Image link blocks",
       "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "full_width": false,
+        "block_size": "medium",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
       }
     },
     "faq": {
@@ -238,12 +297,12 @@
         "title": "FAQ",
         "content": "",
         "team_avatar_width": 160,
-        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
-        "answer_time": "Average answer time: 24h",
+        "support_hours": "SAV disponible 7j/7 vous pouvez nous contacter sur Whatsaap",
+        "answer_time": "",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
-        "background": "#ffffff",
+        "background": "#EFEFEF",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
@@ -256,9 +315,10 @@
     }
   },
   "order": [
+    "image-with-text-overlay",
     "collection-list",
     "scrolling-text",
-    "image-with-text-overlay",
+    "image_link_blocks_pBC8ML",
     "faq"
   ]
 }

@@ -19,12 +19,12 @@
           "settings": {
             "icon": "picto-box",
             "mobile_icon_width": 24,
-            "icon_width": 24,
+            "icon_width": 56,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
             "title": "Livraison gratuit",
-            "content": "<p>Tell your customers about your shipping offer.</p>"
+            "content": ""
           }
         },
         "customer-support": {
@@ -32,12 +32,12 @@
           "settings": {
             "icon": "picto-customer-support",
             "mobile_icon_width": 24,
-            "icon_width": 24,
+            "icon_width": 56,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
             "title": "Sav 7j/7",
-            "content": "<p>Tell your customers how they can reach you.</p>"
+            "content": ""
           }
         },
         "payment": {
@@ -45,12 +45,12 @@
           "settings": {
             "icon": "picto-lock",
             "mobile_icon_width": 24,
-            "icon_width": 24,
+            "icon_width": 56,
             "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
+            "icon_background": "#D8F40A",
+            "icon_color": "#000000",
             "title": "Paiement sécuriser",
-            "content": "<p>Tel your customers about your payment methods.</p>"
+            "content": ""
           }
         }
       },
